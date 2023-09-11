@@ -5,7 +5,10 @@ h1 {
 
 h2 {
     background-color: blanchedalmond;
-    color:brown
+    color:brown;
+    width: 416px;
+    /*margin bottom 5px*/
+    margin: 0px 5px 0px 0px;
 }
 h1, .pantry_items_main, .freezer_items_main, h2, h3 {
     margin-top: 0px;
@@ -18,12 +21,6 @@ h1, .pantry_items_main, .freezer_items_main, h2, h3 {
            
 }
 
-h2 {
-    width: 416px;
-    /*margin bottom 5px*/
-    margin: 0px 5px 0px 0px;
-}
-
 h3 {
     margin-top: 10px;
     margin-left: 10px;
@@ -32,7 +29,7 @@ h3 {
 
 .pantry_items_sub, .freezer_items_sub {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 2dvw;
     margin-top: 10px;
     height: 140px;
